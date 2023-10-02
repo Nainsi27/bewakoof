@@ -1,0 +1,365 @@
+
+
+
+.caraDiv{
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+
+.catagories{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+    gap: 20px;
+
+    margin-top: 3%;
+}
+
+.catagories >div{
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+   cursor: pointer;
+}
+
+.catagories>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.banner{
+    margin-top: 3%;
+}
+
+
+.CatagoriesContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.CatoriesBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.CatoriesBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  
+  cursor: pointer;
+
+}
+
+
+.CatoriesBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+.DiscountContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.DiscountBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.DiscountBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  cursor: pointer;
+
+}
+
+.DiscountBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+.BargainContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.BargainBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.BargainBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  cursor: pointer;
+
+}
+
+.BargainBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+.loding{
+    /* border: 1px solid red; */
+     width: 10%;
+     margin: auto;
+
+}
+
+.loding>img{
+   /* border: 1px solid blue; */
+   border-radius: 20px;
+   width: 100%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+
+  
+    
+    .caraDiv{
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+
+   .pageContainer{
+    margin-top: 5%;
+   }
+
+   .banner{
+    width: 100%;
+   }
+
+
+   
+
+   .catagories{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    
+     width: 100%;
+  
+    gap: 3%;
+
+    margin-top: 3%;
+}
+
+.catagories>div{
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1%;
+   
+}
+
+.catagories>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+.CatagoriesContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.CatoriesBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.CatoriesBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  cursor: pointer;
+
+}
+
+
+.CatoriesBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+.BargainContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.BargainBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.BargainBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  cursor: pointer;
+
+}
+
+.BargainBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.DiscountContainer{
+    /* border: 1px solid red; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.DiscountBox{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+    gap: 10px;
+}
+
+.DiscountBox>div{
+
+   
+   /* border: 1px solid green; */
+   text-align: center;
+  
+  cursor: pointer;
+
+}
+
+.DiscountBox>div>img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loding{
+    /* border: 1px solid red; */
+     width: 50%;
+     margin: auto;
+     margin-top: 10%;
+     margin-bottom: 10%;
+
+}
+
+.loding>img{
+   /* border: 1px solid blue; */
+   border-radius: 20px;
+   width: 100%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+
+
+}
